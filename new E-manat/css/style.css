@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1100px;
+    height: auto;
+    background: #d1d1d1;
+    margin: 50px auto;
+    text-align: center;
+}
+.header{
+    float: left;
+    width: 100%;
+    height: auto;
+}
+.imgE{
+    margin-left: 350px;
+    width: 300px;
+    float: left;
+    height: 155px;
+}
+.imgI{
+    float: left;
+    padding: 27.5px;
+    width: 100px;
+}
+.imgUK{
+    float: right;
+    cursor: pointer;
+    margin: 20px 5px;
+    width:60px;
+    height: 60px;
+}
+.imgRU{
+    float: right;
+    cursor: pointer;
+    margin: 20px 5px;
+    width:60px;
+    height: 60px;
+}
+.imgAZE{
+    float: right;
+    cursor: pointer;
+    margin: 20px 5px;
+    width: 60px;
+    height: 60px;
+}
+.nav{
+    float: left;
+    width: 100%;
+    height: auto;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flexPart{
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 5px;
+    float: left;
+    flex-basis: 100%;
+    height: 100px;
+    background: red;
+}
+.flexPart:first-child{
+    margin-left: 20px;
+}
+.flexPart:nth-child(2) .flexImg{
+    margin-top: 30px;
+}
+.flexPart:nth-child(3) .flexImg{
+    margin-top: 17px;
+    height: 70%;
+}
+.flexPart:nth-child(4) .flexImg{
+    margin-top: 37px;
+    height: 25%;
+}
+.flexPart:nth-child(5) .flexImg{
+    margin-top: 7px;
+    height: 90%;
+}
+.flexPart:nth-child(6) .flexImg{
+    margin-top: 17px;
+    height: 60%;
+}
+.flexPart:nth-child(7) .flexImg{
+    margin-top: 0px;
+    height: 100%;
+}
+.flexPart:last-child{
+    margin-right: 20px;
+}
+.flexImg{
+    width: 70%;
+    height: 50%;
+    margin: 20px;
+}
+.clear{
+    clear: both;
+}
+.main{
+    float: left;
+    width: 100%;
+    height: auto;
+    background: #d1d1d1;
+}
+.mainFlex{
+    width: 550px;
+    height: auto;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.mainFlexDiv{
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+    flex-basis: 31%;
+    background: green;
+    height: auto;
+}
+.mainFlexDiv:first-child{
+    background: #175db3;
+}
+.mainFlexDiv:nth-child(2){
+    background: #ffaa01;
+}
+.mainFlexDiv:nth-child(3){
+    background: #3e1d7c;
+}
+.mainFlexDiv:nth-child(4){
+    background: #b11da5;
+}
+.mainFlexDiv:nth-child(5){
+    background: #44801c;
+}
+.mainFlexDiv:nth-child(6){
+    background: #f03a24;
+}
+.mainFlexDiv:nth-child(7){
+    background: #0187c4;
+}
+.mainFlexDiv:nth-child(8){
+    background: #b11e48;
+}
+.mainFlexDiv:nth-child(9){
+    background: #b57720;
+}
+.mainImg{
+    margin-top: 10px;
+    width: auto;
+}
+.h2{
+    font-size:25px;
+}
+.footer{
+    float: left;
+    height:40px;
+    width: 100%;
+    line-height: 40px;
+    background: #bfbfbf;
+    color: #4c4c4e;
+    font-weight: bold;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,854 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 1100px;
+    height: auto;
+    background: #d1d1d1;
+    margin: 50px auto;
+    text-align: center;
+}
+.header{
+    display: inline-block;
+    width: 97%;
+    height: 100px;
+    margin: 15px auto;
+    background: rgb(0, 110, 255);
+    border-radius: 10px;
+}
+
+.logo{
+    float: left;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+.h1{
+    text-transform: uppercase;
+    border-left: 3px solid white;
+    color: white;
+    float: left;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.main{
+    width:97%;
+    height: 500px;
+    margin: 0px auto;
+    border-radius: 10px;
+}
+.mainFlex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.mainDiv{
+    cursor: pointer;
+    margin: 10px;
+    height: 100px;
+    flex-basis: 23.1%;
+    background: green;
+    border-radius: 10px;
+}
+.mainDiv:first-child{
+    background: #174eb3;
+}
+.mainDiv:first-child .mainImg{
+    width: 40px;
+    float: left;
+    margin-top:30px;
+    margin-left: 40px;
+}
+.mainDiv:nth-child(2){
+    background: #61a4d1;
+}
+.mainDiv:nth-child(2) .mainImg{
+    width: 80%;
+    margin-top:25px; 
+}
+.mainDiv:nth-child(3){
+    background: #f59c18;
+}
+.mainDiv:nth-child(3) .mainImg{
+    width: 40px;
+    float: left;
+    margin-top:30px;
+    margin-left: 40px;
+}
+.mainDiv:nth-child(4){
+    background: #07082e;
+}
+.mainDiv:nth-child(4) .mainH1{
+    font-size: 20px;
+    margin: 0px 3px;
+}
+.mainDiv:nth-child(5){
+    background: #ffffff;
+}
+.mainDiv:nth-child(5) .mainImg{
+    width: 80%;
+}
+.mainDiv:nth-child(6){
+    background: #358624;
+}
+.mainDiv:nth-child(6) .mainImg{
+   float: right;
+   margin: 10px;
+   width: 33%;
+}
+.mainDiv:nth-child(6) .mainH1{
+    float: left;
+    text-align: start;
+    line-height: 30px;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+.mainH1{
+    float: left;
+    color: white;
+    line-height: 95px;
+}
+.btn{
+    outline: none;
+    cursor: pointer;
+    background: rgb(177, 176, 176);
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 210px;
+    height: 70px;
+    margin: 20px 0px;
+}
+.btnImg{
+    float: left;
+    margin-top: 2px;
+    margin-left: 10px;
+    width: 25%;
+    border-right: 2px solid white;
+    padding-right: 10px;
+}
+.btnH2{
+    margin-top: 3px;
+    margin-left: 90px;
+    color: white;
+    text-align: start;
+}
+
+
+/* mobilePart */
+
+.logoMobile{
+    float: left;
+    margin: 8px;
+    background: #ffaa01;
+    margin-left: 20px;
+    border-radius: 100%;
+    padding: 8px;
+    border: 2px solid white;
+    margin-right: 70px;
+}
+.mobileMainDiv{
+    cursor: pointer;
+    margin: 10px;
+    height: 100px;
+    flex-basis: 23.1%;
+    background: green;
+    border-radius: 10px;
+}
+.mobileMainDiv:first-child{
+    background: #6a2b93;
+}
+.mobileMainDiv:first-child .mainImg{
+    width: 80%;
+    height: 100%;
+}
+.mobileMainDiv:nth-child(2){
+    background: #ef193b;
+}
+.mobileMainDiv:nth-child(2) .mainImg{
+    width: 80%;
+    margin-top:30px; 
+}
+.mobileMainDiv:nth-child(3){
+    background: #b0043e;
+}
+.mobileMainDiv:nth-child(3) .mainImg{
+    width: 60%;
+    height: 100%;
+}
+.mobileMainDiv:nth-child(4){
+    background:#eeeae7;
+}
+.mobileMainDiv:nth-child(4) .mainImg{
+    width: 70%;
+    height: 100%;
+}
+.mobileMainDiv:nth-child(5){
+    background: #ffffff;
+}
+.mobileMainDiv:nth-child(5) .mainImg{
+    width: 80%;
+    height: 90%;
+    margin-top: 5px;
+}
+.mobileMainDiv:nth-child(6){
+    background: #62a0c9;
+}
+.mobileMainDiv:nth-child(6) .mainImg{
+   float: right;
+   margin: 10px;
+   margin-top: 12.5px;
+   width:30%;
+}
+.mobileMainDiv:nth-child(6) .mainH1{
+    float: left;
+    text-align: start;
+    line-height: 5px;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+
+/* bankPart  */
+
+.logoBank{
+    float: left;
+    margin: 8px;
+    background: #3e1d7c;
+    margin-left: 20px;
+    border-radius: 100%;
+    padding: 8px;
+    border: 2px solid white;
+    margin-right: 70px;
+}
+.bankMainDiv{
+    cursor: pointer;
+    margin: 10px;
+    height: 100px;
+    flex-basis: 23.1%;
+    background: green;
+    border-radius: 10px;
+}
+.bankMainDiv:first-child{
+    background: white;
+}
+.bankMainDiv:first-child .mainImg{
+    width: 80%;
+    margin-top:15px; 
+}
+.bankMainDiv:nth-child(2){
+    background: #94cff7;
+}
+.bankMainDiv:nth-child(2) .mainImg{
+    width: 80%;
+    margin-top:23px; 
+}
+.bankMainDiv:nth-child(3){
+    background: white;
+}
+.bankMainDiv:nth-child(3) .mainImg{
+    width: 80%;
+    height: 110%;
+}
+.bankMainDiv:nth-child(4){
+    background:rgba(0, 0, 0, 0.6);
+}
+.bankMainDiv:nth-child(4) .mainImg{
+    width: 80%;
+    margin-top:38px; 
+}
+.bankMainDiv:nth-child(5){
+    background: #ffffff;
+}
+.bankMainDiv:nth-child(5) .mainImg{
+    width: 100%;
+    height: 80%;
+    margin-top: 12.5px;
+}
+.bankMainDiv:nth-child(6){
+    background: #029cdc;
+}
+.bankMainDiv:nth-child(6) .mainImg{
+   width:90%;
+   height: 100%;
+}
+.bankMainDiv:nth-child(7){
+    background: #ffffff;
+}
+.bankMainDiv:nth-child(7) .mainImg{
+   width:90%;
+   height: 90%;
+}
+.bankMainDiv:nth-child(8){
+    background: #ba0242;
+}
+.bankMainDiv:nth-child(8) .mainImg{
+   width:90%;
+   height: 90%;
+   margin-top: 5px;
+}
+.bankMainDiv:nth-child(9){
+    background: #21467e;
+}
+.bankMainDiv:nth-child(9) .mainImg{
+   width:90%;
+   height:90%;
+   margin-top: 5px;
+}
+.bankMainDiv:nth-child(10){
+    background: #ffffff;
+}
+.bankMainDiv:nth-child(10) .mainImg{
+   width:80%;
+   height: 90%;
+}
+.bankMainDiv:nth-child(11){
+    background: #ffffff;
+}
+.bankMainDiv:nth-child(11) .mainImg{
+   width:90%;
+   height: 100%;
+}
+.bankMainDiv:nth-child(12){
+    background: #ffffff;
+}
+.bankMainDiv:nth-child(12) .mainImg{
+   width:90%;
+   height: 90%;
+   margin-top: 5px;
+}
+.bankMainDiv:nth-child(13){
+    background: #1b2c71;
+}
+.bankMainDiv:nth-child(13) .mainImg{
+   width:90%;
+   height: 90%;
+   
+}
+.bankMainDiv:nth-child(14){
+    background: #ffffff;
+}
+.bankMainDiv:nth-child(14) .mainImg{
+   width:90%;
+   height: 90%;
+   margin-top: 5px;
+}
+.bankMainDiv:nth-child(15){
+    background: #ffffff;
+}
+.bankMainDiv:nth-child(15) .mainImg{
+   width:90%;
+   height: 100%;
+}
+.bankMainDiv:nth-child(16){
+    background: #ffffff;
+}
+.bankMainDiv:nth-child(16) .mainImg{
+   width:90%;
+   height: 90%;
+}
+.bankMainDiv:nth-child(16){
+    background: #ffffff;
+}
+.bankMainDiv:nth-child(16) .mainImg{
+   width:90%;
+   height: 90%;
+}
+
+/* statePart */
+
+.logoState{
+    float: left;
+    margin: 8px;
+    background:  #b11da5;
+    margin-left: 20px;
+    border-radius: 100%;
+    padding: 8px;
+    border: 2px solid white;
+    margin-right: 70px;
+}
+.stateMainDiv{
+    cursor: pointer;
+    margin: 10px;
+    height: 100px;
+    flex-basis: 23.1%;
+    background: green;
+    border-radius: 10px;
+}
+.stateMainDiv:first-child{
+    background: white;
+}
+.stateMainDiv:first-child .mainImg{
+    float: left;
+    margin-left: 10px;
+    width: 40%;
+    height: 100%;
+}
+.stateMainDiv:first-child .mainH1{
+    color: rgb(39, 90, 167);
+}
+.stateMainDiv:nth-child(2){
+    background: rgba(0, 0, 0, 0.764);
+}
+.stateMainDiv:nth-child(2) .mainImg{
+    float: left;
+    margin-top:20px;
+    margin-left: 10px;
+    width: 20%;
+    height: 60%;
+}
+.stateMainDiv:nth-child(2) .mainH1{
+    float: none;
+    color:rgb(255, 145, 0);
+    font-size: 22px;
+    line-height: 25px;
+    margin-top: 25px;
+}
+.stateMainDiv:nth-child(3){
+    background: white;
+}
+.stateMainDiv:nth-child(3) .mainImg{
+    float: left;
+    margin-top:20px;
+    margin-left: 10px;
+    width: 20%;
+    height: 60%;
+}
+.stateMainDiv:nth-child(3) .mainH1{
+    float: none;
+    color:rgb(255, 38, 0);
+    font-size: 25px;
+    line-height: 100px;
+   
+}
+
+/*  TVpart */
+.logoTV{
+    float: left;
+    margin: 8px;
+    background: #44801c;
+    margin-left: 20px;
+    border-radius: 100%;
+    padding: 8px;
+    border: 2px solid white;
+    margin-right: 70px;
+}
+.TVMainDiv{
+    cursor: pointer;
+    margin: 10px;
+    height: 100px;
+    flex-basis: 23.1%;
+    background: green;
+    border-radius: 10px;
+}
+.TVMainDiv:first-child{
+    background: white;
+}
+.TVMainDiv:first-child .mainImg{
+    width: 40%;
+    height: 80%;
+    margin-top: 10px;
+}
+.TVMainDiv:nth-child(2){
+    background: white;
+}
+.TVMainDiv:nth-child(2) .mainImg{
+    width: 90%;
+}
+.TVMainDiv:nth-child(3){
+    background: rgb(238, 95, 39);
+}
+.TVMainDiv:nth-child(3) .mainImg{
+    width: 70%;
+    height: 60%;
+    margin-top: 20px;
+}
+.TVMainDiv:nth-child(4){
+    background:white;
+}
+.TVMainDiv:nth-child(4) .mainImg{
+    width: 80%;
+}
+.TVMainDiv:nth-child(5){
+    background: #ffffff;
+}
+.TVMainDiv:nth-child(5) .mainImg{
+    width: 80%;
+    height: 100%;
+}
+.TVMainDiv:nth-child(6){
+    background: white;
+}
+.TVMainDiv:nth-child(6) .mainImg{
+   width:90%;
+   height: 70%;
+   margin-top: 15px;
+}
+.TVMainDiv:nth-child(7){
+    background: #ffffff;
+}
+.TVMainDiv:nth-child(7) .mainImg{
+   width:90%;
+   height:60%;
+   margin-top: 20px;
+}
+.TVMainDiv:nth-child(8){
+    background: white;
+}
+.TVMainDiv:nth-child(8) .mainImg{
+   width:90%;
+   height: 60%;
+   margin-top: 20px;
+}
+.TVMainDiv:nth-child(9){
+    background: white;
+}
+.TVMainDiv:nth-child(9) .mainImg{
+   width:90%;
+   height:70%;
+   margin-top: 15px;
+}
+.TVMainDiv:nth-child(10){
+    background: #ffffff;
+}
+.TVMainDiv:nth-child(10) .mainImg{
+   width:80%;
+   height: 60%;
+   margin-top: 20px;
+}
+.TVMainDiv:nth-child(11){
+    background: #ffffff;
+}
+.TVMainDiv:nth-child(11) .mainImg{
+   width:90%;
+   height: 110%;
+}
+
+/* internetPart */
+.logoInternet{
+    float: left;
+    margin: 8px;
+    background: #f03a24;
+    margin-left: 20px;
+    border-radius: 100%;
+    padding: 8px;
+    border: 2px solid white;
+    margin-right: 70px;
+}
+.InternetMainDiv{
+    cursor: pointer;
+    margin: 10px;
+    height: 100px;
+    flex-basis: 23.1%;
+    background: green;
+    border-radius: 10px;
+}
+.InternetMainDiv:first-child{
+    background: white;
+}
+.InternetMainDiv:first-child .mainImg{
+    width: 80%;
+    height: 60%;
+    margin-top:20px; 
+}
+.InternetMainDiv:nth-child(2){
+    background:white;
+}
+.InternetMainDiv:nth-child(2) .mainImg{
+    width: 80%;
+    height: 60%;
+    margin-top:20px; 
+}
+.InternetMainDiv:nth-child(3){
+    background: white;
+}
+.InternetMainDiv:nth-child(3) .mainImg{
+    width: 80%;
+    height: 60%;
+    margin-top: 20px;
+}
+.InternetMainDiv:nth-child(4){
+    background:white;
+}
+.InternetMainDiv:nth-child(4) .mainImg{
+    width: 80%;
+    height: 80%;
+    margin-top:10px; 
+}
+.InternetMainDiv:nth-child(5){
+    background: #ffffff;
+}
+.InternetMainDiv:nth-child(5) .mainImg{
+    width: 100%;
+    height: 80%;
+    margin-top: 12.5px;
+}
+.InternetMainDiv:nth-child(6){
+    background: white;
+}
+.InternetMainDiv:nth-child(6) .mainImg{
+   width:90%;
+   height: 100%;
+}
+.InternetMainDiv:nth-child(7){
+    background: #ffffff;
+}
+.InternetMainDiv:nth-child(7) .mainImg{
+   width:90%;
+   height: 100%;
+}
+.InternetMainDiv:nth-child(8){
+    background: white;
+}
+.InternetMainDiv:nth-child(8) .mainImg{
+   width:90%;
+   height: 90%;
+   margin-top: 5px;
+}
+.InternetMainDiv:nth-child(9){
+    background: white;
+}
+.InternetMainDiv:nth-child(9) .mainImg{
+   width:90%;
+   height:60%;
+   margin-top: 20px;
+}
+.InternetMainDiv:nth-child(10){
+    background:white;
+}
+.InternetMainDiv:nth-child(10) .mainImg{
+   width:80%;
+   height: 60%;
+   margin-top: 20px;
+}
+.InternetMainDiv:nth-child(11){
+    background: #ffffff;
+}
+.InternetMainDiv:nth-child(11) .mainImg{
+   width:100%;
+   height: 100%;
+}
+.InternetMainDiv:nth-child(12){
+    background: #ffffff;
+}
+.InternetMainDiv:nth-child(12) .mainImg{
+   width:90%;
+   height: 60%;
+   margin-top: 20px;
+}
+.InternetMainDiv:nth-child(13){
+    background: white;
+}
+.InternetMainDiv:nth-child(13) .mainImg{
+    float: left;
+    width:50%;
+    height: 100%;
+    margin-right: -30px;
+}
+.InternetMainDiv:nth-child(13) .mainH1{
+    color:rgb(76, 175, 207);
+    float: none;
+    font-size: 25px;
+    
+}
+.InternetMainDiv:nth-child(14){
+    background: #ffffff;
+}
+.InternetMainDiv:nth-child(14) .mainImg{
+    width:60%;
+    height: 60%;
+    margin-top: 20px;
+}
+
+/*  TelefonPart  */
+.logoTelefon{
+    float: left;
+    margin: 8px;
+    background: #0187c4;
+    margin-left: 20px;
+    border-radius: 100%;
+    padding: 8px;
+    border: 2px solid white;
+    margin-right: 70px;
+}
+.telefonMainDiv{
+    cursor: pointer;
+    margin: 10px;
+    height: 100px;
+    flex-basis: 23.1%;
+    background: green;
+    border-radius: 10px;
+}
+.telefonMainDiv:first-child{
+    background: white;
+}
+.telefonMainDiv:first-child .mainImg{
+    width: 80%;
+    height: 100%;
+}
+.telefonMainDiv:nth-child(2){
+    background: white;
+}
+.telefonMainDiv:nth-child(2) .mainImg{
+    width: 80%;
+    height: 60%;
+    margin-top:20px; 
+}
+.telefonMainDiv:nth-child(3){
+    background: rgb(175, 174, 174);
+}
+.telefonMainDiv:nth-child(3) .mainImg{
+    width: 60%;
+    height: 100%;
+}
+.telefonMainDiv:nth-child(4){
+    background:white;
+}
+.telefonMainDiv:nth-child(4) .mainImg{
+    width: 80%;
+    height: 100%;
+}
+.telefonMainDiv:nth-child(5){
+    background: #ffffff;
+}
+.telefonMainDiv:nth-child(5) .mainH1{
+    color: rgb(104, 169, 190);
+    float: none;
+    font-size: 40px;
+    line-height: 33px;
+}
+
+/*  gamePart  */
+
+.logoGame{
+    float: left;
+    margin: 8px;
+    background: #b11e48;
+    margin-left: 20px;
+    border-radius: 100%;
+    padding: 8px;
+    border: 2px solid white;
+    margin-right: 70px;
+}
+.gameMainDiv{
+    cursor: pointer;
+    margin: 10px;
+    height: 100px;
+    flex-basis: 23.1%;
+    background: green;
+    border-radius: 10px;
+}
+.gameMainDiv:first-child{
+    background: white;
+}
+.gameMainDiv:first-child .mainImg{
+    width: 80%;
+    height: 100%;
+}
+.gameMainDiv:nth-child(2){
+    background: white;
+}
+.gameMainDiv:nth-child(2) .mainImg{
+    width: 70%;
+    height: 100%; 
+}
+.gameMainDiv:nth-child(3){
+    background: black;
+}
+.gameMainDiv:nth-child(3) .mainImg{
+    width: 90%;
+    height: 100%;
+}
+.gameMainDiv:nth-child(4){
+    background:#eeeae7;
+}
+.gameMainDiv:nth-child(4) .mainImg{
+    width: 70%;
+    height: 100%;
+}
+.gameMainDiv:nth-child(5){
+    background: #1f2225;
+}
+.gameMainDiv:nth-child(5) .mainImg{
+    width: 90%;
+    height: 100%;
+}
+.gameMainDiv:nth-child(6){
+    background: white;
+}
+.gameMainDiv:nth-child(6) .mainImg{
+   
+   width:50%;
+   height: 90%;
+   margin-top: 5px;
+}
+
+/* e-walletPart */
+
+.logoWallet{
+    float: left;
+    margin: 8px;
+    background: #b57720;
+    margin-left: 20px;
+    border-radius: 100%;
+    padding: 8px;
+    border: 2px solid white;
+    margin-right: 70px;
+}
+.walletMainDiv{
+    cursor: pointer;
+    margin: 10px;
+    height: 100px;
+    flex-basis: 23.1%;
+    background: green;
+    border-radius: 10px;
+}
+.walletMainDiv:first-child{
+    background: white;
+}
+.walletMainDiv:first-child .mainImg{
+    width: 80%;
+    height: 100%;
+}
+.walletMainDiv:nth-child(2){
+    background: #3b9ada;
+}
+.walletMainDiv:nth-child(2) .mainImg{
+    width: 80%;
+    margin-top:23px; 
+}
+.walletMainDiv:nth-child(3){
+    background: white;
+}
+.walletMainDiv:nth-child(3) .mainImg{
+    width: 80%;
+    height: 80%;
+    margin-top: 10px;
+}
+.walletMainDiv:nth-child(4){
+    background:white;
+}
+.walletMainDiv:nth-child(4) .mainImg{
+    width: 80%;
+    height: 100%;
+}
+.walletMainDiv:nth-child(5){
+    background: rgb(233, 176, 70);
+}
+.walletMainDiv:nth-child(5) .mainImg{
+    width: 100%;
+    height: 80%;
+    margin-top: 10px;
+}
+.walletMainDiv:nth-child(6){
+    background: white;
+}
+.walletMainDiv:nth-child(6) .mainImg{
+   width:90%;
+   height: 80%;
+   margin-top: 10px;
+}
